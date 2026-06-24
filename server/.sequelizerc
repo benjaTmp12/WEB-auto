@@ -1,0 +1,23 @@
+{
+  "development": {
+    "dialect": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "database": "autos_db",
+    "username": "root",
+    "password": "root",
+    "define": {
+      "timestamps": true,
+      "underscored": false
+    }
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
