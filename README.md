@@ -83,12 +83,12 @@ npx sequelize-cli db:migrate
 
 ---
 
-## 🌐 URLs de Producción
+## URLs de Producción
 
 | Componente | URL |
 |------------|-----|
-| Frontend | `https://TU_URL_FRONTEND.vercel.app` |
-| API | `https://TU_URL_BACKEND.railway.app` |
+| Frontend | `https://web-auto-ten.vercel.app` |
+| API | `https://web-auto-production-e8ed.up.railway.app` |
 
 ### Usuario de prueba
 ```
@@ -98,7 +98,7 @@ Password: Test1234
 
 ---
 
-## ✅ Historias de Usuario Implementadas
+##  Historias de Usuario Implementadas
 
 ### Generales (GEN)
 - [x] **GEN-01** Repositorio ejecutable — `npm run dev` en `/server` y `/client`
