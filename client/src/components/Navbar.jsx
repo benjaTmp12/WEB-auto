@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="navbar-brand">
         <Link to="/" className="brand-link">
           <span className="brand-icon">🚗</span>
-          <span className="brand-text">AutoMarket</span>
+          <span className="brand-text">Auto<span>Market</span></span>
         </Link>
       </div>
 
